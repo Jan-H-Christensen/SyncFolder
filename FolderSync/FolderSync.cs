@@ -182,10 +182,9 @@ namespace FolderSync
             try
             {
                 var replicaDir = Path.GetDirectoryName(replicaFile);
-                if (!Directory.Exists(replicaDir))
-                {
+                if (!Directory.Exists(replicaDir) && !string.IsNullOrEmpty(replicaDir))
                     Directory.CreateDirectory(replicaDir);
-                }
+
 
                 File.Copy(sourceFile, replicaFile, true);
 
