@@ -10,7 +10,7 @@ To create a robust folder synchronization solution, I broke down the task into s
 
 This approach ensures reliable and accurate file synchronization, safeguarding data integrity and preventing data loss.
 
-## Run the console application
+## Run the console application :tada:
 
 ´´´
 dotnet run -- <SourceFolder> <ReplikaFolder> <TaskTimer> <LogFileLocation>
