@@ -12,6 +12,12 @@ This approach ensures reliable and accurate file synchronization, safeguarding d
 
 ## Run the console application :tada:
 
-´´´
-dotnet run -- <SourceFolder> <ReplikaFolder> <TaskTimer> <LogFileLocation>
-´´´
+```
+dotnet run -- SourceFolder ReplikaFolder TaskTimer LogFileLocation
+```
+
+example
+
+```
+dotnet run --  D:\test\SyncFolder D:\test\ReplFolder 30 D:\test\log.txt
+```
