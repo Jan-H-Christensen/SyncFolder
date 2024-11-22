@@ -1,0 +1,47 @@
+# Ignore build outputs
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Log files
+*.log
+
+# Visual Studio Code settings
+.vscode/
+
+# Rider IDE settings
+.idea/
+*.iml
+
+# Packages
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Ignore project lock file
+project.lock.json
+project.fragment.lock.json
+
+# Ignore .NET core build outputs
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.runtimeconfig.json
+*.runtimeconfig.dev.json
+*.deps.json
+*.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS-generated files
+.DS_Store
+Thumbs.db
